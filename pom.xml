@@ -4,7 +4,7 @@
   <artifactId>jersey2-boilerplate</artifactId>
   <version>0.0.1</version>
   <name>Jersey2Boilerplate</name>
-  <description>Boilerplate for a RESTful Jersey 2 application</description>
+  <description>Boilerplate for a RESTful Jersey 2 application</description><packaging>war</packaging>
   
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,6 +45,12 @@
   				<target>1.8</target>
   			</configuration>
   		</plugin>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-war-plugin</artifactId>
+  			<version>3.2.0</version>
+  		</plugin>
   	</plugins>
   </build>
+  
 </project>
