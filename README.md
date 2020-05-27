@@ -13,3 +13,8 @@ $ git clone https://git.idmapps.nqbuild.lab:3000/haysg/jersey2-boilerplate.git
 Update `src/main/webapp/WEB-INF/web.xml`
 
 Modify `SimplePojo.java` and `SimpleResource.java` to reflect your application.
+
+## References
+
+1. [Getting Access to HttpServletRequest object in restful web service](https://stackoverflow.com/a/47483114/6146580)
+1. [JAX-RS @PathParam example](https://mkyong.com/webservices/jax-rs/jax-rs-pathparam-example/) by mkyong
